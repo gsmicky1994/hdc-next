@@ -8,7 +8,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images:{ 
-    unoptimized:false
+    unoptimized:false,
+    domains: ['http://ec2-13-233-34-176.ap-south-1.compute.amazonaws.com:1337/'],
   },
   trailingSlash: true,
 
