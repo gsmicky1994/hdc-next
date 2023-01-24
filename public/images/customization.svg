@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6202" data-name="Rectangle 6202" width="70" height="70" transform="translate(309 1038)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_12646" data-name="Group 12646" transform="translate(-291 -1020)">
+    <circle id="Ellipse_579" data-name="Ellipse 579" cx="52.5" cy="52.5" r="52.5" transform="translate(291 1020)" fill="#1492e6"/>
+    <g id="Mask_Group_135" data-name="Mask Group 135" clip-path="url(#clip-path)">
+      <g id="noun-settings-5248461" transform="translate(306.446 1042.987)">
+        <path id="Path_3760" data-name="Path 3760" d="M20.913,39.517V55.272a2.014,2.014,0,1,1-4.028,0V39.517a6.344,6.344,0,0,0,4.028,0ZM16.885,27.506V5.028a2.014,2.014,0,1,1,4.028,0V27.506a6.359,6.359,0,0,0-4.028,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3761" data-name="Path 3761" d="M18.9,25.165a8.347,8.347,0,1,0,8.346,8.347A8.351,8.351,0,0,0,18.9,25.165Zm0,4.028a4.319,4.319,0,1,1-4.319,4.319A4.32,4.32,0,0,1,18.9,29.193Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3762" data-name="Path 3762" d="M54.465,47.867a6.359,6.359,0,0,0,4.028,0v7.406a2.014,2.014,0,1,1-4.028,0Zm0-12.011V5.029a2.014,2.014,0,1,1,4.028,0V35.856a6.359,6.359,0,0,0-4.028,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3763" data-name="Path 3763" d="M56.477,50.209a8.347,8.347,0,1,0-8.346-8.346A8.35,8.35,0,0,0,56.477,50.209Zm0-4.028A4.319,4.319,0,1,1,60.8,41.863,4.321,4.321,0,0,1,56.477,46.182Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3764" data-name="Path 3764" d="M39.7,24.445V55.272a2.014,2.014,0,0,1-4.028,0V24.445a6.361,6.361,0,0,0,4.028,0ZM35.675,12.434V5.028a2.014,2.014,0,0,1,4.028,0v7.406a6.361,6.361,0,0,0-4.028,0Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3765" data-name="Path 3765" d="M37.689,10.093a8.347,8.347,0,1,0,8.347,8.346A8.351,8.351,0,0,0,37.689,10.093Zm0,4.028A4.319,4.319,0,1,1,33.37,18.44,4.321,4.321,0,0,1,37.689,14.121Z" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

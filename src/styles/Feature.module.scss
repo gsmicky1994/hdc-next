@@ -1,0 +1,157 @@
+.feature {
+
+    :global {
+        .bg-image-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+            z-index: -1;
+
+            .bg-image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+
+        .feature-first-container {
+            min-height: 100vh;
+
+            p {
+                max-width: 780px;
+            }
+        }
+
+        .feature-second-container {
+            .features-container {
+                padding-block: 4rem;
+
+                .feature-item-row {
+                    .feature-image-container {
+                        border-radius: 25px;
+                        background-color: var(--background-color-dark);
+                        height: clamp(18.75rem, 13.0682rem + 22.7273vw, 31.25rem);
+                        width: clamp(18.75rem, 13.0682rem + 22.7273vw, 31.25rem);
+
+                        .feature-image {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .feature-content {}
+                }
+            }
+        }
+        .feature-third-container{
+            background-color: var(--primary);
+            border-radius: 10px;
+            overflow: hidden;
+            height: 400px;
+            .feature-third-image-container{
+                padding: 0rem 3.5rem;
+                .left{
+                    width: 70%;
+                    .app-store-container{
+                        .app-store-image{
+                            width: 140px;
+                            height: 45px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .download-now{
+                        background-color: white;
+                        color: #00001C;
+                        text-transform: capitalize;
+                    }
+                }
+                .right{
+                    width: 30%;    
+                }
+                .img-container{
+                    height: clamp(18.75rem, 10.2273rem + 34.0909vw, 37.5rem);
+                    width: clamp(12.5rem, 6.8182rem + 22.7273vw, 25rem);
+                    position: relative;
+                    top: 100px;
+                    .bottom-image{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feature {
+        :global {
+            .feature-second-container {
+                .features-container {
+                    .feature-item-row {
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        .feature-image-container {
+                        }
+
+                        .feature-content {}
+                    }
+                }
+            }
+            .feature-third-container{
+                height: auto;
+                padding: 2rem;
+                gap: 0;
+                .feature-third-image-container{
+                    padding: 0rem ;
+                    gap: 0;
+                    flex-direction: column-reverse;
+                    .left{
+                        width: 100%;
+                        align-items: center;
+                        text-align: center;
+                        .app-store-container{
+                            .app-store-image{
+                                width: 140px;
+                                height: 45px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+                        .download-now{
+                            background-color: white;
+                            color: #00001C;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .right{
+                        width: 100%;    
+                    }
+                    .img-container{
+                        position: static;
+                        .bottom-image{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

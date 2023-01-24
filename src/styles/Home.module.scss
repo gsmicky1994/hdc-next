@@ -1,0 +1,176 @@
+.home {
+    padding-top: 5rem;
+    :global {
+        .para {
+            max-width: 800px;
+        }
+
+        .download-now-button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-transform: capitalize;
+        }
+
+        .home-first-container {
+            .hdc-home-image-container {
+                margin-top: 1rem;
+                width: clamp(25rem, 7.9545rem + 68.1818vw, 62.5rem);
+
+                .hdc-home-image {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .home-second-container {
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 80px;
+                padding: 4rem 4rem;
+
+                .feature {
+                    .hdc-home-feature-image-container {
+                        height: 100px;
+                        width: 100px;
+
+                        .hdc-home-feature-image {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+
+            .see-all-button {
+                padding: 0.75rem 1.5rem;
+                border-radius: 6px;
+                text-transform: capitalize;
+                color: white;
+            }
+        }
+        .home-third-container{
+            background-color: var(--primary);
+            border-radius: 10px;
+            overflow: hidden;
+            height: 400px;
+            .home-third-image-container{
+                padding: 0rem 3.5rem;
+                .left{
+                    width: 70%;
+                    .app-store-container{
+                        .app-store-image{
+                            width: 140px;
+                            height: 45px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .download-now{
+                        background-color: white;
+                        color: #00001C;
+                        text-transform: capitalize;
+                    }
+                }
+                .right{
+                    width: 30%;    
+                }
+                .img-container{
+                    height: clamp(18.75rem, 10.2273rem + 34.0909vw, 37.5rem);
+                    width: clamp(12.5rem, 6.8182rem + 22.7273vw, 25rem);
+                    position: relative;
+                    top: 100px;
+                    .bottom-image{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .home-four-container{
+            .arrow-circle-container{
+                .arrow-circle{
+                    height: 60px;
+                    width: 60px;
+                    background-color: var(--primary);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home {
+        :global {
+            .home-second-container {
+                .grid-container {
+                    display: grid;
+                    grid-template-columns:auto;
+                    gap: 80px;
+                    padding: 2rem;
+
+                    .feature {
+                        .hdc-home-feature-image-container {
+                            
+                            .hdc-home-feature-image {
+                                
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+            .home-third-container{
+                height: auto;
+                padding: 2rem;
+                gap: 0;
+                .home-third-image-container{
+                    padding: 0rem ;
+                    gap: 0;
+                    flex-direction: column-reverse;
+                    .left{
+                        width: 100%;
+                        align-items: center;
+                        text-align: center;
+                        .app-store-container{
+                            .app-store-image{
+                                width: 140px;
+                                height: 45px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+                        .download-now{
+                            background-color: white;
+                            color: #00001C;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .right{
+                        width: 100%;    
+                    }
+                    .img-container{
+                        position: static;
+                        .bottom-image{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<svg id="Group_3948" data-name="Group 3948" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6158" data-name="Rectangle 6158" width="80" height="80" transform="translate(35 35)" fill="#ff76df"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_6157" data-name="Rectangle 6157" width="150" height="150" rx="75" fill="#28293d"/>
+  <g id="Mask_Group_114" data-name="Mask Group 114" clip-path="url(#clip-path)">
+    <g id="noun-glasses-809274" transform="translate(22.24 32.034)">
+      <path id="Path_3698" data-name="Path 3698" d="M36.2,28.966A13.678,13.678,0,0,0,22.867,39.721c-1.749-.067-3.555-.026-5.323-.026h-.16a1.706,1.706,0,0,0,.16,3.408H22.6A13.645,13.645,0,0,0,36.2,56.228c7.505,0,13.877-6.127,13.626-13.631-.058-1.721,2.322-2.644,3.406-2.5,1.684.219,3.431.747,3.406,2.5a13.617,13.617,0,0,0,27.226.506H89A1.7,1.7,0,1,0,89,39.7h-5.27c-.045.008-.089.016-.133.026a13.625,13.625,0,0,0-26.134-1.757,7.647,7.647,0,0,0-8.463,0,13.655,13.655,0,0,0-12.8-9Zm0,3.407A10.223,10.223,0,1,1,25.981,42.6,10.2,10.2,0,0,1,36.2,32.373Zm34.065,0A10.223,10.223,0,1,1,60.046,42.6,10.2,10.2,0,0,1,70.266,32.373Z" fill="#ff76df"/>
+    </g>
+  </g>
+</svg>

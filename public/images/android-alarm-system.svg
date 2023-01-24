@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6202" data-name="Rectangle 6202" width="70" height="70" transform="translate(309 1038)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_12621" data-name="Group 12621" transform="translate(-291 -1020)">
+    <circle id="Ellipse_579" data-name="Ellipse 579" cx="52.5" cy="52.5" r="52.5" transform="translate(291 1020)" fill="#1492e6"/>
+    <g id="Mask_Group_138" data-name="Mask Group 138" clip-path="url(#clip-path)">
+      <g id="noun-alarm-5430292_1_" data-name="noun-alarm-5430292 (1)" transform="translate(303.334 1042.062)">
+        <path id="Path_3769" data-name="Path 3769" d="M17.049,32.235A24.164,24.164,0,1,0,41.212,8.071,24.192,24.192,0,0,0,17.049,32.235Zm24.164,20.5a20.5,20.5,0,1,1,20.5-20.5A20.52,20.52,0,0,1,41.212,52.734Z" transform="translate(-0.546 -0.547)" fill="#fff"/>
+        <path id="Path_3770" data-name="Path 3770" d="M57.535,39.576l-6.368-3.162V29.839a1.833,1.833,0,1,0-3.667,0v7.712a1.832,1.832,0,0,0,1.019,1.642l7.387,3.667a1.833,1.833,0,0,0,1.63-3.283Z" transform="translate(-8.668 -5.863)" fill="#fff"/>
+        <path id="Path_3771" data-name="Path 3771" d="M16.833,15.051a1.825,1.825,0,0,0,1.3-.537l5.362-5.362A1.833,1.833,0,0,0,20.9,6.559l-5.362,5.362a1.833,1.833,0,0,0,1.3,3.129Z" fill="#fff"/>
+        <path id="Path_3772" data-name="Path 3772" d="M75.818,6.56a1.833,1.833,0,0,0-2.592,2.592l5.362,5.362a1.833,1.833,0,0,0,2.592-2.593Z" transform="translate(-15.385 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
