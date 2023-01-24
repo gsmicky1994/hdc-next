@@ -2,6 +2,7 @@ import { ApolloClient, InMemoryCache, ApolloLink, concat, HttpLink } from "@apol
 import Link from "next/link"
 import React from "react"
 import { GET_ALL_BLOGS } from "../../graphql/queries"
+import Image from 'next/image';
 export default function Blog({ blogs }: { blogs: [] }) {
     const [blogData, setBlogData] = React.useState()
     React.useEffect(() => {
@@ -12,7 +13,8 @@ export default function Blog({ blogs }: { blogs: [] }) {
                     <div className="border-2-primary padding-block-2 padding-inline-4 border-radius-10 pointer hover-bg-seconday">
                         <div dangerouslySetInnerHTML={{ __html: blog.attributes.Headline }}>
                         </div>
-                        <img height={200} src={blog.attributes.Image.data[0].attributes.url} alt={blog.attributes.Image.data[0].attributes.alternativeText} />
+                        <Image height={200} width={200}
+                         src={blog.attributes.Image.data[0].attributes.url} alt={blog.attributes.Image.data[0].attributes.alternativeText} />
                         <div className="line-clamp-3 full-width" dangerouslySetInnerHTML={{ __html: blog.attributes.BlogBody }}>
 
                         </div>
