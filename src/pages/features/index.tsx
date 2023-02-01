@@ -4,12 +4,19 @@ import Image from 'next/image'
 import featureBg from "../../../public/images/features-bg.png"
 import Head from 'next/head'
 export default function Features() {
+
+    const onClickHandler = () => {
+        gtag('event', 'hdc_feature', {
+            event_category: 'hdc_track',
+            value: 1
+        })
+    }
     return <>
         <Head>
             <title>Feature</title>
         </Head>
         <div className={styles.feature}>
-            <div className='bg-image-container'>
+            <div className='bg-image-container' onClick={onClickHandler}>
                 <Image className='bg-image' src="/images/features-bg.png" fill quality={100} alt="features background image" />
             </div>
             <div className='feature-first-container flex-column gap-20 justify-center align-center text-align-center'>
